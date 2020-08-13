@@ -87,7 +87,7 @@ This repo contains 7 of the 20 projects of the course.
 ---
 
 <img style="border-radius: 100px;" src="https://avatars1.githubusercontent.com/u/63213995?s=460&u=06c696b4fb4c2795ba97e524c580308cb7d591be&v=4" width="100px;" alt="Allan Gaia Pio"/>
-<br />
+
 <sub><b>Allan Gaia Pio</b></sub>
 
 
