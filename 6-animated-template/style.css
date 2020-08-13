@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+body > *:not(.projects-navigation) {
+  margin-top: 40px;
+}
+
+.projects-navigation {
+  font-family: Roboto, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: min-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  z-index: 100;
+
+  background-color: rgba(255, 255, 255, 0.8);
+
+  color: #333;
+}
+
+.projects-navigation h4 {
+  justify-self: start;
+}
+
+.projects-navigation ul {
+  list-style: none;
+  display: flex;
+}
+
+.projects-navigation a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
+
+.projects-navigation a:hover {
+  text-decoration: underline;
+}

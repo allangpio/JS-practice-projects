@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinite Scroll</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="projects-navigation">
+      <h4>JS Projects</h4>
+      <ul>
+        <a href="../01-quote/index.html"><li>&larr; Previous</li></a>
+        <li>|</li>
+        <a href="../03-picture-in-picture/index.html"><li>Next &rarr;</li></a>
+      </ul>
+    </div>
+
+    <h1>Unsplash API - Infinite Scroll</h1>
+    <div class="loader" id="loader">
+      <img src="./loader.svg" alt="Loading" />
+    </div>
+
+    <div class="image-container" id="image-container"></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

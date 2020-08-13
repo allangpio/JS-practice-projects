@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Picture in Picture</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="projects-navigation">
+      <h4>JS Projects</h4>
+      <ul>
+        <a href="../02-infinite-scroll/index.html"><li>&larr; Previous</li></a>
+        <li>|</li>
+        <a href="../04--joke-generator/index.html"><li>Next &rarr;</li></a>
+      </ul>
+    </div>
+
+    <p>
+      Want to watch a video while doing some other taks on your computer?
+      <span>
+        Just click the button :)
+      </span>
+    </p>
+    <!-- Video -->
+    <video controls id="video" height="360" width="640" hidden></video>
+    <!-- Button -->
+    <div class="btn-container">
+      <button id="btn">Start</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

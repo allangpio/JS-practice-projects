@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  color: #eee;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin-top: -2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #222;
+}
+
+.projects-navigation {
+  font-family: Roboto, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: min-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+
+  background-color: rgba(255, 255, 255, 0.8);
+
+  color: #333;
+}
+
+.projects-navigation h4 {
+  justify-self: start;
+}
+
+.projects-navigation ul {
+  list-style: none;
+  display: flex;
+}
+
+.projects-navigation a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
+
+.projects-navigation a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.5rem;
+  min-width: 350px;
+  width: 65%;
+
+  margin: 1rem auto 3rem auto;
+}
+
+span {
+  display: block;
+  margin-top: 0.75rem;
+}
+
+button {
+  font-family: 'Barlow', sans-serif;
+  color: rgb(158, 144, 22);
+  font-size: 1.2rem;
+
+  border: 3px solid rgba(158, 144, 22, 0.692);
+  border-radius: 100px;
+  outline: none;
+
+  background: #eee;
+  box-shadow: 0 0.2rem 1rem 0.01rem rgba(238, 238, 238, 0.4);
+
+  padding: 0.5rem 1rem;
+
+  cursor: pointer;
+  transition: all 0.5s ease;
+  backface-visibility: hidden;
+}
+
+button:hover {
+  color: rgb(238, 238, 238);
+  border: 3px solid rgb(238, 238, 238);
+  background: rgb(158, 144, 22);
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 0.1rem 0.5rem 0.01rem rgba(238, 238, 238, 0.4);
+}

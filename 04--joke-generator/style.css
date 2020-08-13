@@ -1,0 +1,116 @@
+/* ROBOT.GIF from Giphy - https://giphy.com/gifs/robot-cinema-4d-eyedesyn-3o7abtn7DuREEpsyWY */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  background: #45badd;
+}
+
+.projects-navigation {
+  font-family: Roboto, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+
+  background-color: rgba(255, 255, 255, 0.8);
+
+  color: #333;
+}
+
+.projects-navigation h4 {
+  justify-self: start;
+}
+
+.projects-navigation ul {
+  list-style: none;
+  display: flex;
+}
+
+.projects-navigation a {
+  margin: 0 3rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
+
+.projects-navigation a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: url('./robot.gif');
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px 10px rgba(63, 15, 15, 0.2);
+
+  width: 200px;
+  height: 50px;
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: #fff;
+  background: #ff3482;
+
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  filter: brightness(95%);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:disabled {
+  filter: brightness(30%);
+  cursor: default;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1050px) {
+  button {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .container {
+    background-size: cover;
+    background-position: center;
+  }
+
+  button {
+    margin-top: 450px;
+    margin-left: 0;
+  }
+}
