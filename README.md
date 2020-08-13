@@ -1,5 +1,5 @@
 <h1 align="center">
-    💻 VanillaJS-projects
+    💻 JS- Practice Projects
 </h1>
 
 Table of Contents
