@@ -1,7 +1,7 @@
 const menuBars = document.getElementById('menu-bars');
 const overlay = document.getElementById('overlay');
 
-const navItems = Array.from(document.querySelectorAll('li'));
+const navItems = Array.from(document.querySelectorAll('.overlay li'));
 
 function animateItems(elementArray, direction1, direction2) {
   elementArray.map((element, index) => {
