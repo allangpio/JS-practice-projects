@@ -21,7 +21,7 @@ Table of Contents
 This repo contains the projects created for the [JavaScript Web Projects](https://www.udemy.com/course/javascript-web-projects-to-build-your-portfolio-resume/)
 course that i'm currently taking.
 
-[Live demo](https://allangpio.github.io/VanillaJS-projects/)
+[Live demo](https://allangpio.github.io/JS-practice-projects/)
 
 Those are projects to practice some JS application on the Front-End like.
 
