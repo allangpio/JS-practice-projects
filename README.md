@@ -12,8 +12,8 @@ Table of Contents
       * [03 - Picture in Picture](#picture-in-picture)
       * [04 - Joke Generator](#joke-generator)
       * [05 - Theme Switcher](#theme-switcher)
-      * [05 - Animation on Scroll](#animation-on-scroll)
-      * [05 - Animated Navigation](#animated-navigation)
+      * [06 - Animation on Scroll](#animation-on-scroll)
+      * [07 - Animated Navigation](#animated-navigation)
 
 
 
