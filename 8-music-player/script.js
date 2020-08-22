@@ -106,7 +106,7 @@ function updateProgressBar(e) {
     }
 
     // Delay switch current Element to avoid NAN
-    currentEl.textContent = `${durationMinutes}:${durationSeconds}`;
+    currentEl.textContent = `${currentMinutes}:${currentSeconds}`;
   }
 }
 
