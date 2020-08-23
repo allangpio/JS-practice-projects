@@ -105,7 +105,7 @@ This repo contains 7 of the 20 projects of the course.
 - Play, pause, previous and next song
 - Cumtom styles for the player controls
 
-<img alt="Animated Navigation" title="Animated Navigation" src="./assets/animated-nav.gif" width='400' />
+<img alt="Animated Navigation" title="Animated Navigation" src="./assets/music-player.gif" width='400' />
 
 ### Autor
 
